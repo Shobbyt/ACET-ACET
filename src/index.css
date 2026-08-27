@@ -1,1 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
+
+
+
+:root {
+  --font-primary: "Manrope", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+
+  --color-primary: #087F5B;
+  --color-primary-dark: #064E3B;
+  --color-primary-light: #ECFDF5;
+
+  --color-background: #F8FAFC;
+  --color-text: #111827;
+  --color-white: #FFFFFF;
+}
+
+body {
+    font-family: var(--font-primary);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
