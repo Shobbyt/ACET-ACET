@@ -8,7 +8,7 @@ import HowItWorks from "../Components/HowItWorks"
 import ForProfessionals from "../Components/ForProfessionals"
 import ForCompanies from "../Components/ForCompanies"
 import TrustSafety from "../Components/TrustSafety"
-import Fairness from "../Components/Fairness"
+// import Fairness from "../Components/Fairness"
 import FinalCTA from "../Components/FinalCTA"
 
 
@@ -23,7 +23,7 @@ const TheMainPage = () => {
       <ForProfessionals/>
       <ForCompanies/>
       <TrustSafety/>
-      <Fairness/>
+      {/* <Fairness/> */}
       <FinalCTA/>
       <Footer/>
     </div>
